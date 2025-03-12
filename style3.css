@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A1D6D4;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.bowl {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 65vh;
+    background-color: #1A726E;
+    border-radius: 0 0 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 2rem;
+    overflow: hidden;
+}
+
+.pokemon-circle {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.pokemon-circle img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h1 {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translateX(-20%) rotate(-15deg);
+    font-size: 8rem;
+    font-family: fantasy;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.download-btn {
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+    background-color: black;
+    color: white;
+    padding: 3rem 3.5rem;
+    border: none;
+    border-radius: 0;
+    font-size: 2rem;
+    font-family: fantasy;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #A1D6D4;
+        overflow: hidden;
+    }
+
+    h1 {
+        position: absolute;
+        top: 2rem;
+        left: 25%;
+        transform: translateX(-50%) rotate(-10deg);
+        font-size: 3.5rem;
+        text-align: center;
+        color: white;
+        font-family: fantasy;
+    }
+
+    .download-btn {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(6, 6, 6, 0.7);
+        color: white;
+        padding: 4rem 3rem;
+        border: none;
+        border-radius: 0;
+        font-size: 3rem;
+        font-family: fantasy;
+        cursor: pointer;
+    }
+
+    .bowl {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 50vh;
+        background-color: #1A726E;
+        border-radius: 0 0 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 2rem;
+        overflow: hidden;
+    }
+
+    .pokemon-circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .pokemon-circle img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        border-radius: 50%;
+    }
+}

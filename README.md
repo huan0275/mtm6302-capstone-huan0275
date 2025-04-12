@@ -36,3 +36,16 @@ d. the load more arrow is hard to control to be in the center during the transit
 
 e. also the hamburger menu needs js a lot, so i dropped it for the mobile version.
 
+A Report on Pt. 4
+
+a. tried to merge all css together but that's just led to a mess, and the prof said it's ok to leave three css there. Also, there's no need to download the list of the caught pokemons. such a list button was therefore deleted. 
+
+b. used js to add more html to index.html like detail and collection html. 
+
+c. used chatgpt to figure out how to randomly load the first 20 pokemons instead of the same pokemons with the same order again and again, and how to dynamically change the 'release'/'catch' button according to the reality.
+
+d. forget about the name that has to be with the image when initially loaded, I had to add them dynamically. To avoid the image placed weirdly i had to use transform: translateY to put it in the center of the circle.
+
+e. pokemons in the caught list displayed weridly, did some work on its CSS too. 
+
+f. html/css validator used to check if there're any grammar errors.
